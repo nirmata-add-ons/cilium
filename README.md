@@ -14,7 +14,7 @@ It supports two routing modes -
 4. Bandwidth management - Cilium implements bandwidth management through efficient EDT-based (Earliest Departure Time) rate-limiting with eBPF for container traffic that is egressing a node. 
 5. Monitoring and troubleshooting - Cilium can provide an in-depth view of traffic and also includes a hubble, observability UI tool.
 
-##Using Cilium with Nirmata
+**Using Cilium with Nirmata
 
 Cilium manipulates the /etc/cni directory and needs RW permission to the directory. This needs to be tweaked in kubelet volume configuration in Nirmata. The cilium CNI YAML is available here - 
 
